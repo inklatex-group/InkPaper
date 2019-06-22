@@ -1,8 +1,26 @@
-\documentclass{inkpaper}
+\documentclass[cn]{inkpaper}
 \title{InkPaper:一个带有墨香的数学论文模板}
 \author{Moyan Liang}
 \date{\today}
 \entitle{InkPaper:A paper template with ink perfume\\Package Documentation}
 \begin{document}
     \maketitle
+    \section{概述}
+    此模板本是应罗老师的请求而设计的,利用了C\TeX来显示中文.适用于中文及英文.
+    \section{使用方法}
+    \begin{lstlisting}
+        \documentclass{inkpaper}
+    \end{lstlisting}
+    即可.摘要请使用:
+    \begin{lstlisting}
+        \twocolumn[
+            \begin{onecolabstract}
+                BlahBlahBlah...
+            \end{onecolabstract}
+        ]
+    \end{lstlisting}
+    \section{定理}
+    \begin{theorem}
+        定理样例.
+    \end{theorem}
 \end{document}

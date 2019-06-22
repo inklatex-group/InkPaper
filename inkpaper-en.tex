@@ -1,0 +1,29 @@
+\documentclass[en]{inkpaper}
+
+\title{InkPaper:一个带有墨香的数学论文模板}
+\author{Moyan Liang}
+\date{\today}
+\entitle{InkPaper:A paper template with ink perfume\\Package Documentation}
+\begin{document}
+\maketitle
+\section{Summary}
+This template is designed for Mr.Loh and uses C\TeX to display Chinese characters.
+(both cn and en can display Chinese characters.)
+\section{Usage}
+\begin{lstlisting}
+    \documentclass[cn/en]{inkpaper}
+\end{lstlisting}
+Use
+\begin{lstlisting}
+    \twocolumn[
+        \begin{onecolabstract}
+            BlahBlahBlah...
+        \end{onecolabstract}
+    ]
+\end{lstlisting}
+for abstract environment.
+\section{Theorems}
+\begin{theorem}
+    Exempli Gratia.
+\end{theorem}
+\end{document}
