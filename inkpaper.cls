@@ -34,7 +34,7 @@
 	\let\footnotesize\small
 	%\let\footnoterule\hrule\vspace{5pt}
     \let \footnote \thanks
-    \twocolumn[
+ 
 	\begin{center}
         {\LARGE \@title \par}
         \vspace{2pt}
@@ -42,7 +42,7 @@
         \vspace{5pt}
         {\@author \par}
     \end{center}
-	]
+
 	\@thanks
 	\vfil\null
 	\setcounter{footnote}{0}%
