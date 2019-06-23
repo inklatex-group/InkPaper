@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 
-\ProvidesPackage{inkpaper}[2019/5/26 v 0.01 Paper template.]
+\ProvidesClass{inkpaper}[2019/5/26 v 0.01 Paper template.]
 
 \LoadClass[UTF8,fancyhdr,twocolumn]{ctexart}
 \RequirePackage{xcolor}
@@ -94,7 +94,10 @@
 	\theoremstyle{definition} %
 	\newtheorem{definition}{定义}[section] %
 	\newtheorem{conjecture}{猜想}[section] %
-	\newtheorem{example}{例}[section] %
+    \newtheorem{example}{例}[section] %
+    \newtheorem{problem}{题}[section] %
+    \newtheorem*{problema}{引题}
+    \newtheorem*{solution}{解}
 	\theoremstyle{remark} %
 	\newtheorem*{remark}{\normalfont\bfseries 评论} %
 	\newtheorem*{note}{\normalfont\bfseries 注} %
@@ -117,7 +120,10 @@
 	\theoremstyle{definition} %
 	\newtheorem{definition}{Definition}[section] %
 	\newtheorem{conjecture}{Conjecture}[section] %
-	\newtheorem{example}{Example}[section] %
+    \newtheorem{example}{Example}[section] %
+    \newtheorem{problem}{Problem}[section] %
+    \newtheorem*{problema}{Initial Problem}
+    \newtheorem*{solution}{Solution.}
 	\theoremstyle{remark} %
 	\newtheorem*{remark}{Remark} %
 	\newtheorem*{note}{Note} %
