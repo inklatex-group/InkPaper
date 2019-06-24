@@ -78,9 +78,14 @@
 }
 
 \RequirePackage{fancyhdr}
+\markboth{\leftmark}{\rightmark}
 \fancyhf{}
-\lhead{\textnormal{\kaishu\rightmark}} 
-\rhead{--\ \thepage\ --} 
+\fancyhead[CO]{\rightmark}
+\fancyhead[LE,RO]{$\cdot$\, \thepage\, $\cdot$}
+\fancyhead[CE]{\leftmark}
+\renewcommand{\headrulewidth}{0.4pt}
+% \lhead{\textnormal{\kaishu\rightmark}} 
+% \rhead{--\ \thepage\ --} 
 \pagestyle{fancy} 
 % \sectionmark 的重定义需要在 \pagestyle 之后生效 
 \renewcommand\sectionmark[1]{% 
