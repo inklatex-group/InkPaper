@@ -128,7 +128,7 @@
     \newtheorem{example}{Example}[section] %
     \newtheorem{problem}{Problem}[section] %
     \newtheorem*{problema}{Initial Problem}
-    \newtheorem*{solution}{Solution.}
+    \newtheorem*{solution}{Solution}
 	\theoremstyle{remark} %
 	\newtheorem*{remark}{Remark} %
 	\newtheorem*{note}{Note} %
